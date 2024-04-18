@@ -1,0 +1,44 @@
+{
+"list_products" :[
+    {
+    "name": "Lập Trình JavaScript Cơ Bản",
+    "company": "JavaScript",
+    "img": "img/products/th (2).jpg",
+    "price": "1200000",
+    "star": 5,
+    "rateCount": 10000,
+    "promo": {
+        "name": "tragop",
+        "value": "0"
+    },
+  
+    "masp": "Java01"
+}, {
+    "name": "Lập Trình JavaScript Nâng Cao",
+    "company": "JavaScript",
+    "img": "img/products/xiaomi-mi-8-lite-black-1-600x600.jpg",
+    "price": "2500000",
+    "star": 4,
+    "rateCount": 1000,
+    "promo": {
+        "name": "tragop",
+        "value": "0"
+    },
+  
+    "masp": "Jav1"
+}, 
+{
+    "name": "Khóa Học HTML cho người mới bắt đầu",
+    "company": "HTML",
+    "img": "img/products/xiaomi-mi-8-lite-black-1-600x600.jpg",
+    "price": "2000000",
+    "star": 5,
+    "rateCount": 1000,
+    "promo": {
+        "name": "khong",
+        "value": "0"
+    },
+  
+    "masp": "HTM0"
+}]
+}

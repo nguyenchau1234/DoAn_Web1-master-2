@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body style="background-color: 	#c1cdc1">
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh;  background-color: 	#faf0e6;">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Được thành lập từ năm 1996, chúng tôi là một trong những nhà phân phối ĐTDĐ đầu tiên tại Hà Nội và
+                    kể từ năm 2000, chúng tôi chính thức trở thành nhà phân phối ĐTDĐ SamSung – Masterdealer duy nhất
+                    tại 194 đường Lê Duẩn.
+                </p>
+                <br />
+                <p>
+                    Năm 1854 Pháp mới bắt đầu có điện tín.
+
+Charles Bourseul lúc bấy giờ là nhân viên hành chính về điện tín viết bài trong báo l'Illustration: "Từ ngày 26/08/1854 đây là nguyên tắc cho máy điện thoại".
+
+Năm 1860, một giáo viên người Đức Philippe Reiss thực hiện một máy có thể truyền những âm thanh về nhạc bằng cách dùng điện.
+
+Ông đã thành công trong việc kinh doanh máy của ông nhưng nó vẫn còn yếu kém và không có khả năng truyền lời nói. Tuy nhiên ông Reiss đã tiến đến rất gần cái có thể gọi là điện thoại. Phát minh của P. Reiss được trình bày tại Mỹ.
+
+Hai người Mỹ, Alexander Graham Bell và Eliza Gray cuối cùng thực hiện được máy điện thoại. Graham Bell làm được nhiều mẫu máy truyền âm thanh và năm 1875 cho ra đời hệ thống điện tín hoàn chỉnh. Elisha Gray làm việc cùng lĩnh vực và ngày 14/02/1876, cả hai cùng trình bằng sáng chế điện thoại của họ.<br />
+                    Chúng tôi xin chân thành cảm ơn tất cả các khách hàng đã, đang và sẽ ủng hộ chúng tôi.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>

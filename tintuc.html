@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tin tức - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!-- js -->
+
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body  style="background-color:	#c1cdc1">
+    <script> addTopNav();</script>
+
+    <section style="min-height: 100vh; background-color: 	#faf0e6;">
+        <script> addHeader(); </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://r.search.yahoo.com/_ylt=AwrKFwLECx5mSeMHuQdrUwx.;_ylu=Y29sbwNzZzMEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1713273924/RO=10/RU=https%3a%2f%2fwww.thegioididong.com%2ftin-tuc/RK=2/RS=6vyDVIzC4UEzKJVZL2rSuoxdVnE-">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.tLT3A-vLzVtLPGNBsqgowAHaEc&pid=Api&P=0&h=180">
+                    <h2>Đánh giá smartphone chip S660, RAM 8 GB, giá 6,99 triệu tại Việt Nam</h2>
+                </a>
+                <br/>
+                <h5>Doanh ngiệp &emsp;3 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://www.thegioididong.com/tin-tuc/oppo-a1s-5g-va-oppo-a1i-5g-ra-mat-voi-thiet-ke-trendy-cung-muc-gia-binh-dan-1564661" target="_blank">
+                    <img src="https://cdn.tgdd.vn/News/Thumb/1564661/OPPOA1sT-1200x675.jpg">
+                    <h2>OPPO A1s 5G và OPPO A1i 5D ra mắt với thiết kế trendy</h2>
+                </a>
+                <br/>
+                <h5>Thanh niên &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://www.thegioididong.com/tin-tuc/7-chiec-dien-thoai-xiaomi-tu-gia-re-den-cao-cap-dang-giam-gia-ngon-chi-tu-2-49-trieu-1564662" target="_blank">
+                    <img src="https://cdn.tgdd.vn/News/Thumb/1564662/xiaomi2-1200x675.jpg">
+                    <h2>7 chiếc điện thoại Xiaomi từ giá rer đến cao cấp đang giảm giá ngon </h2>
+                </a>
+                <br/>
+                <h5>VOV &emsp; 6 giờ</h5>
+            </div>
+          
+           
+
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
